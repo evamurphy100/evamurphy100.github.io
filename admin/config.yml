@@ -13,7 +13,7 @@ create: true  # Allow users to create new documents in this collection
 fields:  # The fields each document in this collection have
   - {label: "Display name (such as your full name)", name: "title", widget: "string"}
   - {label: "Position or tagline (such as Professor of AI)", name: "role", widget: "string", required: false}
-  - label: "Avatar (upload an image named `avatar.jpg/png`)"
+  - label: "Avatar (upload an image named `Pic.jpg/png`)"
     name: "avatar_filename"
     widget: "image"
     default: "avatar"
