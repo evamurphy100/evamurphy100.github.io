@@ -1,1 +1,9 @@
-theme: jekyll-theme-minimal
+# Site settings
+title: Personal Website
+author:
+  name: Eva Murphy
+  email: nagy@clemson.edu
+description: "About Me"
+
+# Build settings
+remote_theme: jekyll/minima
