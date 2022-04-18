@@ -2,8 +2,8 @@
   "name": "Eva Murphy",
   "short_name": "Eva Murphy",
   "lang": "en-us",
-  "theme_color": "#2962ff",
-  "background_color": "#2962ff",
+  "theme_color": "#FFA500f",
+  "background_color": "#FFA500",
   "display": "standalone",
   "start_url": "/?utm_source=web_app_manifest"
 }
