@@ -1,1521 +1,544 @@
-<!DOCTYPE html><html lang="en-us" >
-
+<!DOCTYPE html>
+<html lang="en-us">
 <head>
-
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  
-  
-  
   <meta name="generator" content="Wowchemy 5.0.0-beta.1 for Hugo">
-  
-
-  
-
-  
-  
-
-  
-  
-  
-  
-  
-    
-    
-    
-  
-  
-
   <meta name="author" content="Eva Murphy">
-
-  
-  
-  
-    
-  
-  <meta name="description" content="Assistant Professor ">
-
-  
-  <link rel="alternate" hreflang="en-us" href="/author/eva-murphy/">
-
-  
-
-
-
-
-
-
-
-  
-
-
-
-
-  
-  
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  
-
-  
-  
-  
+  <meta name="description" content="Assistant Professor of Statistical Sciences at Baylor University">
   <meta name="theme-color" content="#ffa500">
-  
 
-  
-  
-  
+  <link rel="canonical" href="https://evamurphy100.github.io/">
+  <link rel="alternate" href="/author/eva-murphy/index.xml" type="application/rss+xml" title="Eva Murphy">
+  <link rel="manifest" href="/index.webmanifest">
+
+  <!-- Preview shown when the link is shared (Slack, LinkedIn, etc.) -->
+  <meta property="twitter:card" content="summary">
+  <meta property="og:site_name" content="Eva Murphy">
+  <meta property="og:url" content="https://evamurphy100.github.io/">
+  <meta property="og:title" content="Eva Murphy">
+  <meta property="og:description" content="Assistant Professor of Statistical Sciences at Baylor University">
+
+  <title>Eva Murphy</title>
+
+  <!-- Styles and fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <script src="/js/mathjax-config.js"></script>
-  
-
-  
-  
-  
-  
-    
-    
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.0/css/academicons.min.css" integrity="sha512-W4yqoT1+8NLkinBLBZko+dFB2ZbHsYLDdr50VElllRcNt2Q4/GSs6u71UHKxB7S6JEMCp5Ve4xjh3eGQl/HRvg==" crossorigin="anonymous">
-    
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha256-FMvZuGapsJLjouA6k7Eo2lusoAX9i0ShlWFG6qt7SLc=" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
-
-    
-    
-    
-      
-    
-    
-      
-      
-        
-          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/github.min.css" crossorigin="anonymous" title="hl-light">
-          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
-        
-      
-    
-
-    
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.min.css" integrity="sha512-1xoFisiGdy9nvho8EgXuXvnpR5GAMSjFwp40gSRE3NwdUdIMIKuPa7bqoUhLD0O/5tPNhteAsE5XyyMi5reQVA==" crossorigin="anonymous">
-    
-
-    
-
-    
-    
-      
-
-      
-      
-
-      
-    
-      
-
-      
-      
-
-      
-    
-      
-
-      
-      
-
-      
-    
-      
-
-      
-      
-
-      
-    
-      
-
-      
-      
-
-      
-    
-      
-
-      
-      
-
-      
-    
-      
-
-      
-      
-
-      
-    
-      
-
-      
-      
-
-      
-    
-      
-
-      
-      
-
-      
-    
-      
-
-      
-      
-
-      
-    
-      
-
-      
-      
-
-      
-    
-      
-
-      
-      
-
-      
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.2.2/lazysizes.min.js" integrity="sha512-TmDwFLhg3UA4ZG0Eb4MIyT1O1Mb+Oww5kFG0uHqXsdbyZz9DcvYQhKpGgNkamAI6h2lGGZq2X8ftOJvF/XjTUg==" crossorigin="anonymous" async></script>
-      
-    
-      
-
-      
-      
-
-      
-    
-      
-
-      
-      
-
-      
-    
-      
-
-      
-      
-
-      
-        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" integrity="" crossorigin="anonymous" async></script>
-      
-    
-      
-
-      
-      
-
-      
-    
-      
-
-      
-      
-
-      
-    
-
-  
-
-  
-  
-  
-    
-      
-      
-      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CRoboto:400,400italic,700%7CRoboto+Mono&display=swap">
-    
-  
-
-  
-  
-  
-  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.0/css/academicons.min.css" integrity="sha512-W4yqoT1+8NLkinBLBZko+dFB2ZbHsYLDdr50VElllRcNt2Q4/GSs6u71UHKxB7S6JEMCp5Ve4xjh3eGQl/HRvg==" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha256-FMvZuGapsJLjouA6k7Eo2lusoAX9i0ShlWFG6qt7SLc=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.min.css" integrity="sha512-1xoFisiGdy9nvho8EgXuXvnpR5GAMSjFwp40gSRE3NwdUdIMIKuPa7bqoUhLD0O/5tPNhteAsE5XyyMi5reQVA==" crossorigin="anonymous">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.2.2/lazysizes.min.js" integrity="sha512-TmDwFLhg3UA4ZG0Eb4MIyT1O1Mb+Oww5kFG0uHqXsdbyZz9DcvYQhKpGgNkamAI6h2lGGZq2X8ftOJvF/XjTUg==" crossorigin="anonymous" async></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" crossorigin="anonymous" async></script>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CRoboto:400,400italic,700%7CRoboto+Mono&display=swap">
   <link rel="stylesheet" href="/css/wowchemy.min.2da9fc7ecccb62374ee4667dc6583d14.css">
 
-  
-
-
-
-
-  
-
-  
-
-
-  
-  
-
-  
-  <link rel="alternate" href="/author/eva-murphy/index.xml" type="application/rss+xml" title="Eva Murphy">
-  
-
-  <link rel="manifest" href="/index.webmanifest">
-  
-  <link rel="canonical" href="/author/eva-murphy/">
-
-  
-  
-  
-  
-  
-  
-  
-    
-    
-  
-  
-  <meta property="twitter:card" content="summary">
-  
-  <meta property="og:site_name" content="Eva Murphy">
-  <meta property="og:url" content="/author/eva-murphy/">
-  <meta property="og:title" content="Eva Murphy | Eva Murphy">
-  <meta property="og:description" content="Mathematical and Statistical Sciences PhD Student">
-  
-    
-  
-
-  
-
-
-
-
-  
-
-
-  
-
-
-
-
-
-  <title>Eva Murphy | Eva Murphy</title>
-
+  <!-- Your custom font (replaces the style="font-family: Arial" that was repeated on every line) -->
+  <style>
+    #profile-page .col-lg-8,
+    .card-text p {
+      font-family: Arial, Helvetica, sans-serif;
+    }
+  </style>
 </head>
 
-
-<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper  ">
-
-  
-  
-  
-  
-  
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper">
   <script src="/js/wowchemy-init.js"></script>
 
+  <!-- ===================== SEARCH (built into the template) ===================== -->
   <aside class="search-results" id="search">
-  <div class="container">
-    <section class="search-header">
-
-      <div class="row no-gutters justify-content-between mb-3">
-        <div class="col-6">
-          <h1>Search</h1>
+    <div class="container">
+      <section class="search-header">
+        <div class="row no-gutters justify-content-between mb-3">
+          <div class="col-6">
+            <h1>Search</h1>
+          </div>
+          <div class="col-6 col-search-close">
+            <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+          </div>
         </div>
-        <div class="col-6 col-search-close">
-          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        <div id="search-box">
+          <input name="q" id="search-query" placeholder="Search..." autocapitalize="off" autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control">
         </div>
-      </div>
+      </section>
+      <section class="section-search-results">
+        <div id="search-hits"></div>
+      </section>
+    </div>
+  </aside>
 
-      <div id="search-box">
-        
-        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
-        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control">
-        
-      </div>
-
-    </section>
-    <section class="section-search-results">
-
-      <div id="search-hits">
-        
-      </div>
-
-    </section>
-  </div>
-</aside>
-
-
+  <!-- ===================== MENU BAR ===================== -->
   <div class="page-header">
-    
-
-
-
-
-
-
-
-
-
-
-
-
-<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
-  <div class="container">
-
-    
-    <div class="d-none d-lg-inline-flex">
-      <a class="navbar-brand" href="/">Eva Murphy</a>
-    </div>
-    
-
-    
-    <button type="button" class="navbar-toggler" data-toggle="collapse"
-            data-target="#navbar-content" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
-    <span><i class="fas fa-bars"></i></span>
-    </button>
-    
-
-    
-    <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
-      <a class="navbar-brand" href="/">Eva Murphy</a>
-    </div>
-    
-
-    
-    
-    <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
-
-      
-      <ul class="navbar-nav d-md-inline-flex">
-        
-
-        
-
-        
-        
-        
-          
-        
-
-        
-
-        
-        
-        
-        
-
-        
-          
-            
-            
-          
-          
-            
-            
-            
-              
-            
-            
-          
-        
-
-        <li class="nav-item">
-          <a class="nav-link " href="/#about"><span>Home</span></a>
-        </li>
-
-        
-        
-
-        
-
-        
-        
-        
-          
-        
-
-        
-
-        
-        
-        
-        
-
-        
-          
-            
-            
-          
-          
-            
-            
-            
-              
-            
-            
-          
-        
-
-        <li class="nav-item">
-          <a class="nav-link " href="/#research"><span>Research</span></a>
-        </li>
-
-        
-        
-
-        
-
-        
-        
-        
-          
-        
-
-        
-
-        
-        
-        
-        
-
-        
-          
-            
-            
-          
-          
-            
-            
-            
-              
-            
-            
-          
-        
-
-        <li class="nav-item">
-          <a class="nav-link " href="/#experience"><span>Experience</span></a>
-        </li>
-
-        
-        
-
-        
-
-        
-        
-        
-          
-        
-
-        
-
-        
-        
-        
-        
-
-        
-          
-            
-            
-          
-          
-            
-            
-            
-              
-            
-            
-          
-
-        
-        
-
-        
-
-        
-        
-        
-          
-        
-
-        
-
-        
-        
-        
-        
-
-        
-          
-            
-            
-          
-          
-        
-
-        <li class="nav-item">
-          <a class="nav-link " href="/media/EM_Resume_updated.pdf"><span>CV</span></a>
-        </li>
-
-        
-        
-
-        
-
-        
-        
-        
-          
-        
-
-        
-
-        
-        
-        
-        
-
-        
-          
-            
-            
-          
-          
-            
-            
-            
-              
-            
-            
-          
-        
-
-        <li class="nav-item">
-          <a class="nav-link " href="/#contact"><span>Contact</span></a>
-        </li>
-
-        
-        
-
-      
-
-        
-      </ul>
-    </div>
-
-    <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
-      
-      
-      <li class="nav-item">
-        <a class="nav-link js-search" href="#" aria-label="Search"><i class="fas fa-search" aria-hidden="true"></i></a>
-      </li>
-      
-
-      
-      
-      <li class="nav-item dropdown theme-dropdown">
-        <a href="#" class="nav-link" data-toggle="dropdown" aria-haspopup="true" aria-label="Display preferences">
-          <i class="fas fa-moon" aria-hidden="true"></i>
-        </a>
-        <div class="dropdown-menu">
-          <a href="#" class="dropdown-item js-set-theme-light">
-            <span>Light</span>
-          </a>
-          <a href="#" class="dropdown-item js-set-theme-dark">
-            <span>Dark</span>
-          </a>
-          <a href="#" class="dropdown-item js-set-theme-auto">
-            <span>Automatic</span>
-          </a>
+    <nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+      <div class="container">
+        <div class="d-none d-lg-inline-flex">
+          <a class="navbar-brand" href="/">Eva Murphy</a>
         </div>
-      </li>
-      
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-content" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+          <span><i class="fas fa-bars"></i></span>
+        </button>
+        <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+          <a class="navbar-brand" href="/">Eva Murphy</a>
+        </div>
 
-      
+        <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+          <ul class="navbar-nav d-md-inline-flex">
+            <li class="nav-item"><a class="nav-link" href="/#about"><span>Home</span></a></li>
+            <li class="nav-item"><a class="nav-link" href="/#research"><span>Research</span></a></li>
+            <li class="nav-item"><a class="nav-link" href="/#experience"><span>Experience</span></a></li>
+            <li class="nav-item"><a class="nav-link" href="/media/EM_Resume_update.pdf"><span>CV</span></a></li>
+            <li class="nav-item"><a class="nav-link" href="/#contact"><span>Contact</span></a></li>
+          </ul>
+        </div>
 
-    </ul>
-
-  </div>
-</nav>
-
-
+        <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+          <li class="nav-item">
+            <a class="nav-link js-search" href="#" aria-label="Search"><i class="fas fa-search" aria-hidden="true"></i></a>
+          </li>
+          <li class="nav-item dropdown theme-dropdown">
+            <a href="#" class="nav-link" data-toggle="dropdown" aria-haspopup="true" aria-label="Display preferences">
+              <i class="fas fa-moon" aria-hidden="true"></i>
+            </a>
+            <div class="dropdown-menu">
+              <a href="#" class="dropdown-item js-set-theme-light"><span>Light</span></a>
+              <a href="#" class="dropdown-item js-set-theme-dark"><span>Dark</span></a>
+              <a href="#" class="dropdown-item js-set-theme-auto"><span>Automatic</span></a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
   </div>
 
   <div class="page-body">
-    
 
+    <!-- ===================== ABOUT / PROFILE ===================== -->
+    <section id="profile-page" class="pt-5">
+      <div class="container">
+        <div class="row">
 
-
-
-<section id="profile-page" class="pt-5">
-  <div class="container">
-    
-    
-      
-      
-      
-      
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-<div class="row">
-  <div class="col-12 col-lg-4">
-    <div id="profile">
-
-      
-      
-      <img class="avatar avatar-square" src="/author/eva-murphy/Pic.jpg" alt="Eva Murphy">
-      
-
-      <div class="portrait-title">
-        <h2>Eva Murphy</h2>
-        <h3>Assistant Professor </h3>
-
-        
-        <h3>
-          
-          <span>Baylor University</span>
-          
-        </h3>
-        
-      </div>
-
-      <ul class="network-icon" aria-hidden="true">
-        
-        
-        
-        
-          
-        
-        
-        
-        
-        
-        <li>
-          <a href="mailto:Eva_Murphy@baylor.edu"  aria-label="envelope" color = "#FFA500">
-            <i class="fas fa-envelope big-icon"></i>
-          </a>
-        </li>
-        
-        
-             
-          
-        
-        
-        
-        
-        
-          
-        
-        
-        
-        
-        
-        
-          
-        
-        
-        
-        
-        
-          
-        
-        <li>
-          <a href="https://github.com/evamurphy100" target="_blank" rel="noopener" aria-label="github" color = "#FFA500">
-            <i class="fab fa-github big-icon"></i>
-          </a>
-        </li>
-        
-        <li>
-          <a href="https://www.linkedin.com/in/eva-nagy-murphy/" target="_blank" rel="noopener" aria-label="linkedin">
-            <i class="fab fa-linkedin big-icon"></i>
-          </a>
-        </li>
-        
-       
-        
-      </ul>
-
-    </div>
-  </div>
-  <div class="col-12 col-lg-8">
-
-    
-    <h1 style = "font-family: Arial" color = "#FFA500"  > Hi there! </h1>
-
-    <p style = "font-family: Arial" color = "#FFA500"  >I&rsquo;m an Assistant Professor in the Department of Statistical Sciences at Baylor University. Prior to joining Baylor, I was a postdoctoral fellow at Wake Forest University, 
-      where I worked with Dr. Staci Hepler. I received my Ph.D. in Statistics from Clemson University under the advisement of Dr. Whitney Huang. My research interests lie at the intersection of environmental and public health, with a particular 
-      focus on developing statistical methods for causal inference with observational data, especially in settings where outcomes evolve across space and time. I develop methods that use latent factor models to represent unobserved, 
-      time- and space-varying processes and confounders that influence outcomes, allowing for flexible dependence structures and more credible counterfactual comparisons. My work integrates Bayesian modeling, spatial statistics, and 
-      causal methods to address complex questions in environmental and public health.
-
-
-    <div class="row">
-
-      
-      <div class="col-md-5" style = "font-family: Arial" color = "#FFA500">
-        <h3>Interests</h3>
-        <ul class="ul-interests">
-          
-          <li>Environmental science</li>
-
-          <li>Public Health</li>
-          
-          <li>Spatio-Temporal statistics</li>
-          
-          <li> Latent variable models </li>
-          
-         <li>Causal inference</li>
-          
-        </ul>
-      </div>
-      
-
-      
-      <div class="col-md-7" style = "font-family:  Arial" color = "#FFA500">
-        <h3>Education</h3>
-        <ul class="ul-edu fa-ul">
-          
-          <li>
-            <i class="fa-li fas fa-graduation-cap"></i>
-            <div class="description">
-              <p class="course">PhD in Mathematical and Statistical Sciences </p>
-              <p class="institution">Clemson University</p>
+          <div class="col-12 col-lg-4">
+            <div id="profile">
+              <img class="avatar avatar-square" src="/author/eva-murphy/Pic.jpg" alt="Eva Murphy">
+              <div class="portrait-title">
+                <h2>Eva Murphy</h2>
+                <h3>Assistant Professor</h3>
+                <h3><span>Baylor University</span></h3>
+              </div>
+              <ul class="network-icon" aria-hidden="true">
+                <li><a href="mailto:Eva_Murphy@baylor.edu" aria-label="envelope"><i class="fas fa-envelope big-icon"></i></a></li>
+                <li><a href="https://github.com/evamurphy100" target="_blank" rel="noopener" aria-label="github"><i class="fab fa-github big-icon"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/eva-nagy-murphy/" target="_blank" rel="noopener" aria-label="linkedin"><i class="fab fa-linkedin big-icon"></i></a></li>
+              </ul>
             </div>
-          </li>
-          
-          <li>
-            <i class="fa-li fas fa-graduation-cap"></i>
-            <div class="description">
-              <p class="course">Master&#39;s in Mathematical Sciences</p>
-              <p class="institution">University of West Florida</p>
+          </div>
+
+          <div class="col-12 col-lg-8">
+            <h1>Hi there!</h1>
+            <p>I&rsquo;m an Assistant Professor in the Department of Statistical Sciences at Baylor University. Prior to joining Baylor, I was a postdoctoral fellow at Wake Forest University,
+              where I worked with Dr. Staci Hepler. I received my Ph.D. in Statistics from Clemson University under the advisement of Dr. Whitney Huang. My research interests lie at the intersection of environmental and public health, with a particular
+              focus on developing statistical methods for causal inference with observational data, especially in settings where outcomes evolve across space and time. I develop methods that use latent factor models to represent unobserved,
+              time- and space-varying processes and confounders that influence outcomes, allowing for flexible dependence structures and more credible counterfactual comparisons. My work integrates Bayesian modeling, spatial statistics, and
+              causal methods to address complex questions in environmental and public health.</p>
+
+            <div class="row">
+              <div class="col-md-5">
+                <h3>Interests</h3>
+                <ul class="ul-interests">
+                  <li>Environmental science</li>
+                  <li>Public Health</li>
+                  <li>Spatio-Temporal statistics</li>
+                  <li>Latent variable models</li>
+                  <li>Causal inference</li>
+                </ul>
+              </div>
+
+              <div class="col-md-7">
+                <h3>Education</h3>
+                <ul class="ul-edu fa-ul">
+                  <li>
+                    <i class="fa-li fas fa-graduation-cap"></i>
+                    <div class="description">
+                      <p class="course">PhD in Mathematical and Statistical Sciences</p>
+                      <p class="institution">Clemson University</p>
+                    </div>
+                  </li>
+                  <li>
+                    <i class="fa-li fas fa-graduation-cap"></i>
+                    <div class="description">
+                      <p class="course">Master&#39;s in Mathematical Sciences</p>
+                      <p class="institution">University of West Florida</p>
+                    </div>
+                  </li>
+                  <li>
+                    <i class="fa-li fas fa-graduation-cap"></i>
+                    <div class="description">
+                      <p class="course">Bachelor&#39;s in Mathematical Sciences</p>
+                      <p class="institution">Babes-Bolyai University</p>
+                    </div>
+                  </li>
+                </ul>
+              </div>
             </div>
-          </li>
-          
-          <li>
-            <i class="fa-li fas fa-graduation-cap"></i>
-            <div class="description">
-              <p class="course">Bachelor&#39;s in Mathematical Sciences</p>
-              <p class="institution">Babes-Bolyai University</p>
-            </div>
-          </li>
-          
-        </ul>
+          </div>
+
+        </div>
       </div>
-      
+    </section>
 
-    </div>
-  </div>
-</div>
+    <!-- ===================== RESEARCH ===================== -->
+    <section id="research" class="home-section wg-experience">
+      <div class="home-section-bg"></div>
+      <div class="container">
+        <div class="row">
 
-    
-
-    
-    
-    
-  </div>
-</section>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-  <section id="research" class="home-section wg-experience  "  >
-   <div class="home-section-bg " ></div>
-    <div class="container">
-
-    
-      <div class="row  ">
-      
-        
           <div class="col-12 col-lg-4 section-heading">
             <h1>Current Research</h1>
-            
           </div>
-        
-      
-    
 
-      
+          <div class="col-12 col-lg-8">
 
+            <!-- Hurricane Florence paper -->
+            <div class="row experience">
+              <div class="col py-2">
+                <div class="card">
+                  <div class="card-body">
+                    <h4 class="card-title exp-title text-muted mt-0 mb-1">Impact of Hurricane Florence on buprenorphine transactions for opioid use disorder: A dual-perspective synthetic control study</h4>
+                    <h4 class="card-title exp-company text-muted my-0">with Collin Cademartori, David Kline, Robert Hurley, Jae Yong, Cara L. McDonnell, Staci A. Hepler, Meredith C.B. Adams</h4>
+                    <div class="card-text">
+                      <ul>
+                        <li><p>Estimate the effect of Hurricane Florence (2018) on buprenorphine transactions for opioid use disorder in southeastern coastal North Carolina using a Bayesian generalized synthetic control approach.</p></li>
+                        <li><p>Compare two perspectives on access: transactions grouped by where patients live versus where pharmacies are located.</p></li>
+                        <li><p>Use streamflow data to capture flooding conditions during the hurricane.</p></li>
+                        <li><p>Find disruptions in both patient- and pharmacy-level transactions, with the largest pharmacy-level decrease (about 22%) during the evacuation week.</p></li>
+                        <li><p><a href="https://www.sciencedirect.com/science/article/pii/S2667278226000349">Link to the publication.</a></p></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
 
+            <!-- Multiple spatial scales paper -->
+            <div class="row experience">
+              <div class="col py-2">
+                <div class="card">
+                  <div class="card-body">
+                    <h4 class="card-title exp-title text-muted mt-0 mb-1">Integrating data at multiple spatial scales to estimate the local burden of the opioid syndemic</h4>
+                    <h4 class="card-title exp-company text-muted my-0">with David Kline, Erin McKnight, Andrea Bonny, William C. Miller, Lance Waller, Staci A. Hepler</h4>
+                    <div class="text-muted exp-meta">April 2024 &ndash; October 2024</div>
+                    <div class="card-text">
+                      <ul>
+                        <li><p>Integrate spatially misaligned data from counties and ZIP codes to analyze the complex interactions of five opioid-related outcomes.</p></li>
+                        <li><p>Apply GIS methods to align ZIP codes with ZIP Code Tabulation Areas (ZCTAs) for a more detailed exploration of the opioid epidemic, revealing critical localized impacts.</p></li>
+                        <li><p>Emphasize the need for both granular and county-level data to avoid misinterpretations, particularly in rural and urban regions.</p></li>
+                        <li><p><a href="https://www.sciencedirect.com/science/article/pii/S1877584525000115/">Link to the publication.</a></p></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
 
+            <!-- NC opioid syndemic paper -->
+            <div class="row experience">
+              <div class="col py-2">
+                <div class="card">
+                  <div class="card-body">
+                    <h4 class="card-title exp-title text-muted mt-0 mb-1">Understanding the Opioid Syndemic in North Carolina: A Novel Approach to Modeling and Identifying Factors</h4>
+                    <h4 class="card-title exp-company text-muted my-0">with David Kline, Kathleen L. Egan, Kathryn E. Lancaster, William C. Miller, Lance Waller, Staci A. Hepler</h4>
+                    <div class="text-muted exp-meta">September 2023 &ndash; May 2024</div>
+                    <div class="card-text">
+                      <ul>
+                        <li><p>Examine trends and relationships among different outcomes believed to reflect opioid misuse.</p></li>
+                        <li><p>Employ a Bayesian dynamic spatial factor model to capture the interrelated dynamics within six different county-level outcomes related to opioid misuse in North Carolina.</p></li>
+                        <li><p>Investigate trends and relationships among illicit opioid overdose deaths, emergency department visits, opioid use disorder treatments, buprenorphine prescriptions, and hepatitis C and HIV cases.</p></li>
+                        <li><p>Develop a novel technique within a Markov chain Monte Carlo algorithm to overcome challenges in loadings matrix estimation, enhancing model identifiability.</p></li>
+                        <li><p>Provide a deeper understanding of the opioid epidemic's dynamics across time and space to inform public health strategies.</p></li>
+                        <li><a href="/media/SRCOS_Poster_2024.pdf">Poster presentation</a> / <a href="/media/NCopioidModeling.mp4">A brief video presentation</a></li>
+                        <li><p><a href="https://academic.oup.com/biostatistics/article/26/1/kxae052/7981516/">Link to the publication.</a></p></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
 
-    <div class="col-12 col-lg-8">
+            <!-- Wind speed and direction paper -->
+            <div class="row experience">
+              <div class="col py-2">
+                <div class="card">
+                  <div class="card-body">
+                    <h4 class="card-title exp-title text-muted mt-0 mb-1">Modeling of wind speed and wind direction through a conditional approach</h4>
+                    <h4 class="card-title exp-company text-muted my-0">with Dr. Whitney Huang, Dr. Julie Bessac, Dr. Jiali Wang, Dr. Rao Kotamarthi</h4>
+                    <div class="text-muted exp-meta">June 2021 &ndash; May 2023</div>
+                    <div class="card-text">
+                      <ul>
+                        <li><p>Develop a directional wind speed distribution using a Weibull distribution in such a way that the parameters of the distribution depend on wind direction.</p></li>
+                        <li><p>Construct the dependence of the parameters of the Weibull distribution on wind direction using harmonic regression via weighted least squares.</p></li>
+                        <li><p>Analyze the changes in wind speed and wind direction from present to future climate scenarios.</p></li>
+                        <li><a href="/media/2022-05-12_Murphy.pdf">Poster presentation</a> / <a href="/media/Joint%20modeling%20of%20wind%20speed%20and%20wind%20direction%20through%20a%20conditional%20approach..mp4">A brief video presentation</a></li>
+                        <li><p><a href="https://onlinelibrary.wiley.com/doi/full/10.1002/env.70011/">Link to the publication.</a></p></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
 
+            <!-- Spatio-temporal wind speed -->
+            <div class="row experience">
+              <div class="col py-2">
+                <div class="card">
+                  <div class="card-body">
+                    <h4 class="card-title exp-title text-muted mt-0 mb-1">Spatio-temporal modeling of wind speed</h4>
+                    <h4 class="card-title exp-company text-muted my-0">with Dr. Whitney Huang, Dr. Ting Fung Ma</h4>
+                    <div class="text-muted exp-meta">June 2022 &ndash; Present</div>
+                    <div class="card-text">
+                      <ul>
+                        <li><p>Decompose the complex structure of the spatio-temporal wind speed process into smaller components that can be estimated more easily. Then combine these components to obtain an estimate of the overall process.</p></li>
+                        <li><p>A smooth space-time function is used to capture the first-order mean structure, taking into account periodicity in time, and a combination of empirical orthogonal functions (EOFs) and a first-order dynamical Gaussian process is employed to characterize the potentially complex second-order covariance structure.</p></li>
+                        <li><p>A crucial aspect of the proposed model is its utilization of the annual "circularity" concept, which introduces spatio-temporal replicates allowing for flexible nonstationary space-time modeling.</p></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
 
-<div class="row experience">
+            <!-- Directional extreme wind speeds -->
+            <div class="row experience">
+              <div class="col py-2">
+                <div class="card">
+                  <div class="card-body">
+                    <h4 class="card-title exp-title text-muted mt-0 mb-1">Modeling Directional Extreme Wind Speeds Using an Extreme Value Regression Approach</h4>
+                    <h4 class="card-title exp-company text-muted my-0">with Dr. Whitney Huang, Dr. Brook Russell</h4>
+                    <div class="text-muted exp-meta">June 2021 &ndash; Present</div>
+                    <div class="card-text">
+                      <ul>
+                        <li><p>Utilize methods from extreme value theory, namely the block maxima method and peaks-over-threshold method, to investigate the potential enhancement of estimating extreme wind speeds.</p></li>
+                        <li><p>Block maxima, peaks-over-thresholds, and point process methods are utilized to model the upper tail of the conditional distribution of the extreme wind speed given wind direction.</p></li>
+                        <li><p>Simulation studies, analysis of output from climate model simulation, and model comparisons are discussed.</p></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
 
-
-    <div class="col py-2">
-         <div class="card">
-           <div class="card-body">
-              <h4 class="card-title exp-title text-muted mt-0 mb-1"> Integrating data at multiple spatial scales to estimate the local burden of the opioid syndemic </h4>
-              <h4 class="card-title exp-company text-muted my-0">with David Kline, Erin McKnight, Andrea Bonny, William C. Miller, Lance Waller, Staci A. Hepler </h4>
-                  <div class="text-muted exp-meta">
-                      April 2024 –
-            
-                      October 2024
-            
-            
-                 </div>
-               <div class="card-text"><ul>
-
-                   <li>
-                       <p style = "font-family: Arial" color = #FFA500"  >Integrate spatially misaligned data from counties and ZIP codes to analyze the complex interactions of five opioid-related outcomes. </p>
-                   </li>
-                   <li>
-                       <p style = "font-family: Arial" color = #FFA500"  > Apply GIS methods to align ZIP codes with ZIP Code Tabulation Areas (ZCTAs) for a more detailed exploration of the opioid epidemic, revealing critical localized impacts. </p>
-                       </li>
-                        <li>
-                         <p style = "font-family: Arial" color = #FFA500"  > Apply GIS methods to align ZIP codes with ZIP Code Tabulation Areas (ZCTAs) for a more detailed exploration of the opioid epidemic, revealing critical localized impacts. </p>
-                           </li>
-                       <li>
-                         <p style = "font-family: Arial" color = #FFA500"  > Emphasize the need for both granular and county-level data to avoid misinterpretations, particularly in rural and urban regions. </p>
-                       </li>
-                   <li>
-                     <p><a href="https://www.sciencedirect.com/science/article/pii/S1877584525000115/">Link to the publication.</a></p>
-                  </li>
-                 
-
-                       </ul>
-               </div>
-           </div>
-         </div>
-     </div>
-
-
-
-
-      
-
- <div class="row experience">
-    
-    
-        <div class="col py-2">
-         <div class="card">
-           <div class="card-body">
-              <h4 class="card-title exp-title text-muted mt-0 mb-1"> Understanding the Opioid Syndemic in North Carolina: A Novel Approach to Modeling and Identifying Factors </h4>
-              <h4 class="card-title exp-company text-muted my-0">with David Kline, Kathleen L. Egan, Kathryn E. Lancaste, William C. Miller, Lance Waller, Staci A. Hepler </h4>
-                  <div class="text-muted exp-meta">
-                     September 2023 –
-            
-                      May 2024
-            
-            
-                 </div>
-               <div class="card-text"><ul>
-
-                   <li>
-                       <p style = "font-family: Arial" color = #FFA500"  > Examine trends and relationships among different outcomes believed to reflect opioid misuse. </p>
-                   </li>
-                   <li>
-                       <p style = "font-family: Arial" color = #FFA500"  > Employ a Baysian dynamic spatial factor model to capture the interrelated dynamics whithin six different county level outcomes related to opioid misuse in North Carolina.  </p>
-                       </li>
-                        <li>
-                         <p style = "font-family: Arial" color = #FFA500"  > Investigating trends and relationships among illicit opioid overdose deaths, emergency department visits, opioid use disorder treatments, buprenorphine prescriptions, and hepatitis C and HIV cases.</p>
-                           </li>
-                       <li>
-                         <p style = "font-family: Arial" color = #FFA500"  > Develop a novel technique within a Markov chain Monte Carlo algorithm to overcome challenges in loadings matrix estimation, enhancing model identifiability. </p>
-                       </li>
-                       <li>
-                         <p style = "font-family: Arial" color = #FFA500"  >Provide a deeper understanding of the opioid epidemic's dynamics across time and space to inform public health strategies. </p>
-                       </li>
-                       <li ><a  href="/media/SRCOS_Poster_2024.pdf"><span>Poster presentation</span></a> <a href = "/media/NCopioidModeling.mp4"><span>/A brief video presentation</span></a></li>
-                      <li>
-                         <p><a href="https://academic.oup.com/biostatistics/article/26/1/kxae052/7981516/">Link to the publication.</a></p>
-                      </li>
-                       </ul>
-               </div>
-           </div>
-         </div>
-     </div>
-   
-
-
-      <div class="row experience">
-    
-    
-        <div class="col py-2">
-         <div class="card">
-           <div class="card-body">
-              <h4 class="card-title exp-title text-muted mt-0 mb-1"> Modeling of wind speed and wind direction through a conditional approach</h4>
-              <h4 class="card-title exp-company text-muted my-0">with Dr. Whitney Huang, Dr. Julie Bessac, Dr. Jiali Wang, Dr. Rao Kotamarthi </h4>
-                  <div class="text-muted exp-meta">
-                     June 2021 –
-            
-                     May 2023
-            
-            
-                 </div>
-               <div class="card-text"><ul>
-
-                   <li>
-                       <p style = "font-family: Arial" color = #FFA500"  >Develop a directional wind speed distribution using Weibull distribution in such way that that the parameters of the distribution depend on wind direction.</p>
-                   </li>
-                   <li>
-                       <p style = "font-family: Arial" color = #FFA500"  >Construct the dependence of the parameters of the Weibull distribution on wind direction using harmonic regression via weighted least square.</p>
-                       </li>
-                        <li>
-                         <p style = "font-family: Arial" color = #FFA500"  >Analyze the changes in wind speed and wind direction from present to future climate scenarios.</p>
-                           </li>
-                         <li ><a  href="/media/2022-05-12_Murphy.pdf"><span>Poster presentation</span></a> <a href = "/media/Joint modeling of wind speed and wind direction through a conditional approach..mp4"><span>/A brief video presentation</span></a></li>
-                      <li>
-                         <p><a href="https://onlinelibrary.wiley.com/doi/full/10.1002/env.70011/">Link to the publication.</a></p>
-                      </li>
-                       
-               </ul>
-               </div>
-           </div>
-         </div>
-     </div>
-  
-</div>
-
-   
-     
-  
-      
-      <div class="row experience">
-    
-    
-    <div class="col py-2">
-      <div class="card">
-        <div class="card-body">
-          <h4 class="card-title exp-title text-muted mt-0 mb-1"> Spatio-temporal modeling of wind speed</h4>
-          <h4 class="card-title exp-company text-muted my-0">with Dr. Whitney Huang, Dr. Ting Fung Ma</h4>
-          <div class="text-muted exp-meta">
-            June 2022 –
-            
-              Present
-            
-            
           </div>
-          <div class="card-text"><ul>
-
-<li>
-<p style = "font-family: Arial" color = #FFA500"  > Decompose the complex structure of the spatio-temporal wind speed process into smaller components that can be estimated more easily. Then combine these components to obtain an estimate of the overall process.</p>
-</li>
-<li>
-<p style = "font-family: Arial" color = #FFA500"  > A smooth space-time function is used to capture the first-order mean structure, taking into account periodicity in time, and a combination of empirical orthogonal functions (EOFs) and a first-order dynamical Gaussian process is employed to characterize the potentially complex second-order covariance structure.</p>
-</li>
-<li>
-<p style = "font-family: Arial" color = #FFA500"  > A crucial aspect of the proposed model is its utilization of the annual "circularity" concept, which introduces spatio-temporal replicates allowing for a flexible nonstationary space-time modeling.</p>
-</li>
-</ul>
-         </div>
-       </div>
+        </div>
       </div>
-    </div>
-  </div> 
- 
- 
+    </section>
 
+    <!-- ===================== EXPERIENCE ===================== -->
+    <section id="experience" class="home-section wg-experience">
+      <div class="home-section-bg"></div>
+      <div class="container">
+        <div class="row">
 
-
-
-
-
- <div class="row experience">
-    
-    
-        <div class="col py-2">
-         <div class="card">
-           <div class="card-body">
-              <h4 class="card-title exp-title text-muted mt-0 mb-1"> Modeling Directional Extreme Wind Speeds Using an Extreme Value Regression Approach </h4>
-              <h4 class="card-title exp-company text-muted my-0">with Dr. Whitney Huang, Dr. Brook Russell </h4>
-                  <div class="text-muted exp-meta">
-                     June 2021 –
-            
-                      Present
-            
-            
-                 </div>
-               <div class="card-text"><ul>
-
-                   <li>
-                       <p style = "font-family: Arial" color = #FFA500"  > Utilize methods from extreme value theory, namely the block maxima method and peaks-over-threshold method to investigate the potential enhancement of estimating extreme wind speeds.</p>
-                   </li>
-                   <li>
-                       <p style = "font-family: Arial" color = #FFA500"  > Block maxima, peaks-over-thresholds, and point process methods, are utilized to model the upper tail of the conditional distribution of the extreme wind speed given wind direction. </p>
-                       </li>
-                        <li>
-                         <p style = "font-family: Arial" color = #FFA500"  > Simulation studies, analysis of output from climate model simulation, and model comparisons are discussed.</p>
-                           </li>
-                       </ul>
-               </div>
-           </div>
-         </div>
-     </div>
-
-
-  </div>
-    
-
-    </div>
-  </section>
-
-    
-    
-    
-
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
- 
-    
-    
-    
-    
- <section id="experience" class="home-section wg-experience  "  >
-   <div class="home-section-bg " ></div>
-    <div class="container">
-
-    
-      <div class="row  ">
-      
-        
           <div class="col-12 col-lg-4 section-heading">
             <h1>Experience</h1>
-            
           </div>
-        
-      
-    
 
-      
+          <div class="col-12 col-lg-8">
 
-
-
-
-<div class="col-12 col-lg-8">
-
-  <div class = " row experience">
-    <div class="card">
-      <div class="card-body">
-        <h4 class="card-title exp-title text-muted mt-0 mb-1"> Assistant Professor  </h4>
-        <h4 class="card-title exp-company text-muted my-0"> Baylor University</h4>
-        <div class="text-muted exp-meta">
-    
-          <span class="middot-divider"></span>
-              <span> Winston Salem, NC, USA</span>
-        </div>
-      </div>
-    </div>
-  </div>
-  
-<div class="row experience">
-    
-    
-    <div class="col py-2">
-      <div class="card">
-        <div class="card-body">
-          <h4 class="card-title exp-title text-muted mt-0 mb-1">Graduate Research Assistant</h4>
-          <h4 class="card-title exp-company text-muted my-0">Clemson University</h4>
-          <div class="text-muted exp-meta">
-  
-              <span class="middot-divider"></span>
-              <span>Clemson, SC, USA</span>
-            
-          </div>
-            <div class="card-text"> <strong> Awards: </strong> 
-                                  <ul>
-                                    <li><em> Outstanding Graduate in Research Award  </em> </li>
-                                    <li><em> ENVR Student Paper Award </em> </li>
-                                    <li><em> Dr. Kenyon Fairey Graduate Fellowship </em> </li>
-                                    <li> <em> Call Me Doctor Dissertation Completion Fellowship </em></li>
-                                  </ul>
+            <div class="row experience">
+              <div class="col py-2">
+                <div class="card">
+                  <div class="card-body">
+                    <h4 class="card-title exp-title text-muted mt-0 mb-1">Assistant Professor</h4>
+                    <h4 class="card-title exp-company text-muted my-0">Baylor University</h4>
+                    <div class="text-muted exp-meta"><span>Waco, TX, USA</span></div>
+                  </div>
+                </div>
+              </div>
             </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  
-                            
-                            
-  
-  
-  
-  <div class="row experience">
-    
-    
-    <div class="col py-2">
-      <div class="card">
-        <div class="card-body">
-          <h4 class="card-title exp-title text-muted mt-0 mb-1">Graduate Teacher of Record</h4>
-          <h4 class="card-title exp-company text-muted my-0">Clemson University</h4>
-          <div class="text-muted exp-meta">
 
-              <span class="middot-divider"></span>
-              <span>Clemson, SC, USA</span>
-            
+            <div class="row experience">
+              <div class="col py-2">
+                <div class="card">
+                  <div class="card-body">
+                    <h4 class="card-title exp-title text-muted mt-0 mb-1">Postdoctoral Fellow</h4>
+                    <h4 class="card-title exp-company text-muted my-0">Wake Forest University</h4>
+                    <div class="text-muted exp-meta"><span>Winston-Salem, NC, USA</span></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row experience">
+              <div class="col py-2">
+                <div class="card">
+                  <div class="card-body">
+                    <h4 class="card-title exp-title text-muted mt-0 mb-1">Graduate Research Assistant</h4>
+                    <h4 class="card-title exp-company text-muted my-0">Clemson University</h4>
+                    <div class="text-muted exp-meta"><span>Clemson, SC, USA</span></div>
+                    <div class="card-text">
+                      <strong>Awards:</strong>
+                      <ul>
+                        <li><em>Outstanding Graduate in Research Award</em></li>
+                        <li><em>ENVR Student Paper Award</em></li>
+                        <li><em>Dr. Kenyon Fairey Graduate Fellowship</em></li>
+                        <li><em>Call Me Doctor Dissertation Completion Fellowship</em></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row experience">
+              <div class="col py-2">
+                <div class="card">
+                  <div class="card-body">
+                    <h4 class="card-title exp-title text-muted mt-0 mb-1">Graduate Teacher of Record</h4>
+                    <h4 class="card-title exp-company text-muted my-0">Clemson University</h4>
+                    <div class="text-muted exp-meta"><span>Clemson, SC, USA</span></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row experience">
+              <div class="col py-2">
+                <div class="card">
+                  <div class="card-body">
+                    <h4 class="card-title exp-title text-muted mt-0 mb-1">Teacher of Mathematics</h4>
+                    <h4 class="card-title exp-company text-muted my-0">Mid-Carolina High School / Wade Hampton High School</h4>
+                    <div class="text-muted exp-meta"><span>Newberry / Varnville, SC</span></div>
+                    <div class="card-text">High School Teacher of Mathematics</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row experience">
+              <div class="col py-2">
+                <div class="card">
+                  <div class="card-body">
+                    <h4 class="card-title exp-title text-muted mt-0 mb-1">Adjunct Instructor</h4>
+                    <h4 class="card-title exp-company text-muted my-0">Piedmont Technical College</h4>
+                    <div class="text-muted exp-meta"><span>Online - Instructor</span></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row experience">
+              <div class="col py-2">
+                <div class="card">
+                  <div class="card-body">
+                    <h4 class="card-title exp-title text-muted mt-0 mb-1">Adjunct Instructor</h4>
+                    <h4 class="card-title exp-company text-muted my-0">Midlands Technical College</h4>
+                    <div class="text-muted exp-meta"><span>Columbia, SC</span></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row experience">
+              <div class="col py-2">
+                <div class="card">
+                  <div class="card-body">
+                    <h4 class="card-title exp-title text-muted mt-0 mb-1">Near to Peer Mentor</h4>
+                    <h4 class="card-title exp-company text-muted my-0">STRIVE for MORE</h4>
+                    <div class="text-muted exp-meta"><span>Online Workshop</span></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
           </div>
         </div>
       </div>
-    </div>
-  </div>
-  
-  <div class="row experience">
-    
-    
-    <div class="col py-2">
-      <div class="card">
-        <div class="card-body">
-          <h4 class="card-title exp-title text-muted mt-0 mb-1">Teacher of Mathematics</h4>
-          <h4 class="card-title exp-company text-muted my-0">Mid-Carolina High School / Wade Hampton High School</h4>
-          <div class="text-muted exp-meta">
-      
-              <span class="middot-divider"></span>
-              <span>Newberry / Varnville, SC</span>
-           
-            
-          </div>
-          <div class="card-text">High School Teacher of Mathematics</div>
-        </div>
-      </div>
-    </div>
-  </div>
-  
-  <div class="row experience">
-    
-    
-    <div class="col py-2">
-      <div class="card">
-        <div class="card-body">
-          <h4 class="card-title exp-title text-muted mt-0 mb-1">Adjunct Instructor</h4>
-          <h4 class="card-title exp-company text-muted my-0">Piedmont Technical College</h4>
-          <div class="text-muted exp-meta">
-   
-              <span class="middot-divider"></span>
-              <span>Online - Instructor </span>
-            
-          </div>
-          
-        </div>
-      </div>
-    </div>
-  </div>
-  
-  <div class="row experience">
-    
+    </section>
 
-    
-    <div class="col py-2">
-      <div class="card">
-        <div class="card-body">
-          <h4 class="card-title exp-title text-muted mt-0 mb-1">Adjunct Instructor</h4>
-          <h4 class="card-title exp-company text-muted my-0">Midlands Technical College</h4>
-          <div class="text-muted exp-meta">
-           <span class="middot-divider"></span>
-              <span>Columbia, SC</span>
-            
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  
-  
-  
-  <div class="row experience">
-    
-   
-    <div class="col py-2">
-      <div class="card">
-        <div class="card-body">
-          <h4 class="card-title exp-title text-muted mt-0 mb-1">Near to Peer Mentor</h4>
-          <h4 class="card-title exp-company text-muted my-0">STRIVE for MORE</h4>
-          <div class="text-muted exp-meta">
-         
-              <span class="middot-divider"></span>
-              <span>Online Workshop</span>
-            
-          </div>
-          
-        </div>
-      </div>
-    </div>
-  </div>
-  
-  
-</div>
-
-
-    
-      </div>
-    
-
-    </div>
-  </section>    
-    
- 
-    
-    
-    
-    
-    
- 
-    
-    
-    
-    
-  <section id="contact" class="home-section wg-contact  "  >
-   <div class="home-section-bg " ></div>
-    <div class="container">
-
-    
-      <div class="row  ">
-      
-        
+    <!-- ===================== CONTACT ===================== -->
+    <section id="contact" class="home-section wg-contact">
+      <div class="home-section-bg"></div>
+      <div class="container">
+        <div class="row">
           <div class="col-12 col-lg-4 section-heading">
             <h1>Contact</h1>
-            
           </div>
-        
-      
-    
-
-      
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div class="col-12 col-lg-8">
-  
-
-  
-
-  <ul class="fa-ul">
-
-    
-    <li>
-      <i class="fa-li fas fa-envelope fa-2x" aria-hidden="true"></i>
-      <span id="person-email"><a href="mailto:Eva_Murphy@baylor.edu">Eva_Murphy@baylor.edu</a></span>
-    </li>
-    
-
-    
-
-    
-    
-
-    
-
-    
-
-    
-
-    
-    
-
-  </ul>
-
-  
-
-</div>
-
-
-    
+          <div class="col-12 col-lg-8">
+            <ul class="fa-ul">
+              <li>
+                <i class="fa-li fas fa-envelope fa-2x" aria-hidden="true"></i>
+                <span id="person-email"><a href="mailto:Eva_Murphy@baylor.edu">Eva_Murphy@baylor.edu</a></span>
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
-    
-
-    </div>
-  </section>
-
-
+    </section>
 
   </div>
-    
-    
 
- 
-
-    
-    
-    
-    
-    
-    
+  <!-- ===================== FOOTER ===================== -->
   <div class="page-footer">
-    
-    
     <div class="container">
       <footer class="site-footer">
-  
-
-  <p class="powered-by">
-    
-  </p>
-
-  
-  
-
-
-
-
-
-
-  <p class="powered-by">
-    
-    
-    
-    Published with
-    <a href="https://wowchemy.com" target="_blank" rel="noopener">Wowchemy</a>  —
-    the free, <a href="https://github.com/wowchemy/wowchemy-hugo-modules" target="_blank" rel="noopener">
-    open source</a> website builder that empowers creators.
-    
-  </p>
-</footer>
-
+        <p class="powered-by">
+          Published with <a href="https://wowchemy.com" target="_blank" rel="noopener">Wowchemy</a> &mdash;
+          the free, <a href="https://github.com/wowchemy/wowchemy-hugo-modules" target="_blank" rel="noopener">open source</a> website builder that empowers creators.
+        </p>
+      </footer>
     </div>
-    
   </div>
 
-  
-<div id="modal" class="modal fade" role="dialog">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title">Cite</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <pre><code class="tex hljs"></code></pre>
-      </div>
-      <div class="modal-footer">
-        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
-          <i class="fas fa-copy"></i> Copy
-        </a>
-        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
-          <i class="fas fa-download"></i> Download
-        </a>
-        <div id="modal-error"></div>
+  <!-- Citation pop-up (part of the template) -->
+  <div id="modal" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Cite</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <pre><code class="tex hljs"></code></pre>
+        </div>
+        <div class="modal-footer">
+          <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank"><i class="fas fa-copy"></i> Copy</a>
+          <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank"><i class="fas fa-download"></i> Download</a>
+          <div id="modal-error"></div>
+        </div>
       </div>
     </div>
   </div>
-</div>
 
-      
+  <!-- ===================== SCRIPTS (needed for the menu, dark mode, and search) ===================== -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/instant.page/5.1.0/instantpage.min.js" integrity="sha512-1+qUtKoh9XZW7j+6LhRMAyOrgSQKenQ4mluTR+cvxXjP1Z54RxZuzstR/H9kgPXQsVB8IW7DMDFUJpzLjvhGSQ==" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/8.8.0/mermaid.min.js" integrity="sha512-ja+hSBi4JDtjSqc4LTBsSwuBT3tdZ3oKYKd07lTVYmCnTCor56AnRql00ssqnTOR9Ss4gOP/ROGB3SfcJnZkeg==" crossorigin="anonymous" title="mermaid"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/highlight.min.js" integrity="sha512-TDKKr+IvoqZnPzc3l35hdjpHD0m+b2EC2SrLEgKDRWpxf2rFCxemkgvJ5kfU48ip+Y+m2XVKyOCD85ybtlZDmw==" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/languages/r.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.min.js" integrity="sha512-SeiQaaDh73yrb56sTW/RgVdi/mMqNeM2oBwubFHagc5BkixSpP1fvqF47mKzPGWYSSy4RwbBunrJBQ4Co8fRWA==" crossorigin="anonymous"></script>
 
-    
-    
-    
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+  <script>const code_highlighting = true;</script>
+  <script>
+    const search_config = {"indexURI":"/index.json","minLength":1,"threshold":0.3};
+    const i18n = {"no_results":"No results found","placeholder":"Search...","results":"results found"};
+    const content_type = {
+      'post': "Posts",
+      'project': "Projects",
+      'publication' : "Publications",
+      'talk' : "Talks",
+      'slides' : "Slides"
+    };
+  </script>
 
-      
-      
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
-      
-
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/instant.page/5.1.0/instantpage.min.js" integrity="sha512-1+qUtKoh9XZW7j+6LhRMAyOrgSQKenQ4mluTR+cvxXjP1Z54RxZuzstR/H9kgPXQsVB8IW7DMDFUJpzLjvhGSQ==" crossorigin="anonymous"></script>
-
-      
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/8.8.0/mermaid.min.js" integrity="sha512-ja+hSBi4JDtjSqc4LTBsSwuBT3tdZ3oKYKd07lTVYmCnTCor56AnRql00ssqnTOR9Ss4gOP/ROGB3SfcJnZkeg==" crossorigin="anonymous" title="mermaid"></script>
-      
-
-      
-        
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/highlight.min.js" integrity="sha512-TDKKr+IvoqZnPzc3l35hdjpHD0m+b2EC2SrLEgKDRWpxf2rFCxemkgvJ5kfU48ip+Y+m2XVKyOCD85ybtlZDmw==" crossorigin="anonymous"></script>
-        
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/languages/r.min.js"></script>
-        
-      
-
-    
-
-    
-    
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.min.js" integrity="sha512-SeiQaaDh73yrb56sTW/RgVdi/mMqNeM2oBwubFHagc5BkixSpP1fvqF47mKzPGWYSSy4RwbBunrJBQ4Co8fRWA==" crossorigin="anonymous"></script>
-    
-
-    
-    
-    <script>const code_highlighting = true;</script>
-    
-
-    
-    
-    
-    
-    
-    
-    <script>
-      const search_config = {"indexURI":"/index.json","minLength":1,"threshold":0.3};
-      const i18n = {"no_results":"No results found","placeholder":"Search...","results":"results found"};
-      const content_type = {
-        'post': "Posts",
-        'project': "Projects",
-        'publication' : "Publications",
-        'talk' : "Talks",
-        'slides' : "Slides"
-        };
-    </script>
-    
-
-    
-    
-
-    
-    
-    <script id="search-hit-fuse-template" type="text/x-template">
-      <div class="search-hit" id="summary-{{key}}">
+  <script id="search-hit-fuse-template" type="text/x-template">
+    <div class="search-hit" id="summary-{{key}}">
       <div class="search-hit-content">
         <div class="search-hit-name">
           <a href="{{relpermalink}}">{{title}}</a>
@@ -1523,53 +546,11 @@
           <p class="search-hit-description">{{snippet}}</p>
         </div>
       </div>
-      </div>
-    </script>
-    
+    </div>
+  </script>
 
-    
-    
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
-    
-
-    
-    
-
-    
-    
-    
-
-    
-    
-
-    
-    
-
-    
-    
-    
-    
-    
-    
-    
-    
-    
-      
-    
-    
-    
-    
-    <script src="/js/wowchemy.min.1e09523f15716988ebe7dec12c579bef.js"></script>
-
-    
-
-
-
-
-
-
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+  <script src="/js/wowchemy.min.1e09523f15716988ebe7dec12c579bef.js"></script>
 </body>
 </html>
-
-
